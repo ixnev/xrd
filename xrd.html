@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xrd转数据 v0.1.0</title>
+    <style>
+        textarea{
+            height: 100px;
+            width: 500px;
+            display: block;
+        }
+        button{
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <p>测试项：</p>
+    <form action="">
+        <label for="to"><input id="to" name="type" type="radio" value="to" checked="">2theta-omega</label>
+        <label for="rc"><input id="rc" name="type" type="radio" value="rc">rocking curve</label>
+    </form>
+    <p>复制txt文本：</p>
+    <textarea id="input"></textarea>
+    <button id="chgbtn">转换</button>
+    <button id="clrbtn">清空</button>
+    <textarea id="result"></textarea>
+    <p id="tip">内容保存为xrdml文件</p>
+
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="xrd.js"></script>
+</body>
+</html>
