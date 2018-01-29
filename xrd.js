@@ -38,6 +38,12 @@ $('#chgbtn').click(function(event) {
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" \n\
     xsi:schemaLocation="http://www.xrdml.com/XRDMeasurement/1.3 http://www.xrdml.com/XRDMeasurement/1.3/XRDMeasurement.xsd" status="Completed">\n\
     <xrdMeasurement measurementType="Scan" status="Completed" sampleMode="Reflection">\n\
+        <usedWavelength intended="K-Alpha 1">\n\
+            <kAlpha1 unit="Angstrom">1.5405980</kAlpha1>\n\
+            <kAlpha2 unit="Angstrom">1.5444260</kAlpha2>\n\
+            <kBeta unit="Angstrom">1.3922500</kBeta>\n\
+            <ratioKAlpha2KAlpha1>0.0000</ratioKAlpha2KAlpha1>\n\
+        </usedWavelength>\n\
         <scan appendNumber="0" mode="Continuous" scanAxis="Omega-2Theta" status="Completed">\n\
             <header>\n\
                 <startTimeStamp>2007-05-25T10:30:25+08:00</startTimeStamp>\n\
